@@ -29,7 +29,7 @@ for ($row=0; $row < count($matrix)-1; $row++) {
 
 for ($row=$startRow; $row < $startRow+2; $row++) { 
   for ($col=$startCol; $col < $startCol+2; $col++) { 
-    echo +$matrix[$row][$col]." ";
+    echo $matrix[$row][$col]." ";
   }
   echo PHP_EOL;
 }
