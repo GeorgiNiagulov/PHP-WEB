@@ -10,7 +10,7 @@ for ($i=0; $i < $count; $i++) {
 
 
   for ($j=0; $j < count($numbers); $j++) { 
-    $result[$j] = $numbers[$j];
+    $result[$j] += $numbers[$j];
   }
 }
 echo implode(" ",$result);
