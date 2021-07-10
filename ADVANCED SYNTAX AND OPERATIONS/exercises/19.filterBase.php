@@ -22,8 +22,8 @@ $command = trim(readline());
 foreach($employeesInfo as $key => $value) {
   if ($command == 'Age' && $key == 'age') {
     foreach($value as $name => $age) {
-      echo "Name: ".$name[0].PHP_EOL;
-      echo "Age: ".$age.PHP_EOL;
+      echo "Name: ".$name.PHP_EOL;
+      echo "Age: ".$age[0].PHP_EOL;
       echo "====================".PHP_EOL;
     }
   } elseif ($command == 'Salary' && $key == 'salary') {
